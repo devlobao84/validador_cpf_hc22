@@ -1,3 +1,79 @@
- .title--color  {
-    color: blue;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .body-color {    
+     background-color: rgb(34, 34, 34);
+ }
+
+ .title--color {
+     color: rgb(195, 0, 255);
+     text-align: center;
+ }
+
+ div p {
+     color: #fff;
+     text-align: center;
+ }
+
+ form {
+     display: flex;
+     justify-content: center;
+ }
+
+ form div .input-width {
+     width: 325px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .button-custom {
+     width: 200px;
+     height: 40px;
+     margin-left: 2%;
+     background-color: rgb(195, 0, 255);
+     border: none;
+ }
+
+ .button-custom:hover {
+     background-color: rgb(123, 0, 255)
+ }
+
+ .text-span {
+     margin-top: 20px;
+     margin-left: 28px;
+ }
+
+ .alert-custom {
+     margin-left: 310px;
+     width: 234px;
+     height: 48px;
+ }
+
+ @media screen and (max-width: 380px) {
+
+     .display-mobile {
+         display: block;
+     }
+
+     .input-custom {
+         width: 200px;
+         display: block;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .button-custom {
+         width: 200px;
+         height: 40px;
+         margin-left: 10%;
+         background-color: rgb(195, 0, 255);
+         border: none;
+     }
+     .button-custom:hover {
+         background-color: rgb(123, 0, 255)
+     }
+
+ }
